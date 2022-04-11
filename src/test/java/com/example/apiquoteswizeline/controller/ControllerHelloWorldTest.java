@@ -31,4 +31,5 @@ public class ControllerHelloWorldTest {
         Assert.assertEquals(httpResponse.getStatusCode(), HttpStatus.OK);
         Assert.assertEquals("Hello, World.", httpResponse.getBody());
     }
+
 }
